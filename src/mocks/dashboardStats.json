@@ -1,0 +1,43 @@
+{
+  "kpis": {
+    "totalRequests": 7,
+    "pendingRequests": 1,
+    "approvedRequests": 2,
+    "rejectedRequests": 1,
+    "totalVendors": 6,
+    "highRiskVendors": 2,
+    "complianceIssues": 3,
+    "openAuditFindings": 2
+  },
+  "procurementTrend": [
+    { "month": "Jan", "amount": 80000, "count": 2 },
+    { "month": "Feb", "amount": 1200000, "count": 1 },
+    { "month": "Mar", "amount": 214000, "count": 2 },
+    { "month": "Apr", "amount": 45000, "count": 1 },
+    { "month": "May", "amount": 0, "count": 0 },
+    { "month": "Jun", "amount": 472000, "count": 4 }
+  ],
+  "departmentSpending": [
+    { "department": "IT", "spend": 540000, "color": "#3b82f6" },
+    { "department": "Operations", "spend": 101000, "color": "#10b981" },
+    { "department": "Facilities", "spend": 1200000, "color": "#f59e0b" },
+    { "department": "Human Resources", "spend": 45000, "color": "#8b5cf6" },
+    { "department": "Finance", "spend": 12000, "color": "#ec4899" }
+  ],
+  "riskTrend": [
+    { "month": "Jan", "critical": 0, "high": 2, "medium": 3 },
+    { "month": "Feb", "critical": 1, "high": 2, "medium": 3 },
+    { "month": "Mar", "critical": 1, "high": 3, "medium": 3 },
+    { "month": "Apr", "critical": 1, "high": 3, "medium": 4 },
+    { "month": "May", "critical": 1, "high": 4, "medium": 4 },
+    { "month": "Jun", "critical": 2, "high": 4, "medium": 5 }
+  ],
+  "complianceTrend": [
+    { "month": "Jan", "score": 88 },
+    { "month": "Feb", "score": 85 },
+    { "month": "Mar", "score": 82 },
+    { "month": "Apr", "score": 83 },
+    { "month": "May", "score": 84 },
+    { "month": "Jun", "score": 84 }
+  ]
+}

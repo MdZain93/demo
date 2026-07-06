@@ -1,0 +1,72 @@
+[
+  {
+    "id": "AUD-9001",
+    "user": "John Doe",
+    "role": "Employee",
+    "action": "Submit Procurement Request",
+    "module": "Procurement",
+    "description": "Submitted PR-5003 for Nova Cloud Next-Gen Data Lake",
+    "ipAddress": "192.168.1.45",
+    "timestamp": "2026-06-18T11:00:00Z"
+  },
+  {
+    "id": "AUD-9002",
+    "user": "Marcus Vance",
+    "role": "Compliance Officer",
+    "action": "Flag Procurement Request",
+    "module": "Compliance",
+    "description": "Flagged PR-5003 due to expired vendor SOC 2 certification",
+    "ipAddress": "192.168.1.12",
+    "timestamp": "2026-06-20T16:45:00Z"
+  },
+  {
+    "id": "AUD-9003",
+    "user": "Sarah Jenkins",
+    "role": "Procurement Manager",
+    "action": "Send Back Request",
+    "module": "Procurement",
+    "description": "Sent back PR-5005 to Emily Blunt for granular fee breakdown",
+    "ipAddress": "10.0.4.11",
+    "timestamp": "2026-06-24T15:20:00Z"
+  },
+  {
+    "id": "AUD-9004",
+    "user": "David Gilmour",
+    "role": "Employee",
+    "action": "Submit Procurement Request",
+    "module": "Procurement",
+    "description": "Submitted PR-5006 for bulk office essentials",
+    "ipAddress": "192.168.2.14",
+    "timestamp": "2026-06-25T08:15:00Z"
+  },
+  {
+    "id": "AUD-9005",
+    "user": "Sarah Jenkins",
+    "role": "Procurement Manager",
+    "action": "Approve Procurement Request",
+    "module": "Procurement",
+    "description": "Approved PR-5006 for office essentials stationeries",
+    "ipAddress": "10.0.4.11",
+    "timestamp": "2026-06-26T16:00:00Z"
+  },
+  {
+    "id": "AUD-9006",
+    "user": "Alex Mercer",
+    "role": "Administrator",
+    "action": "Modify Settings",
+    "module": "Administration",
+    "description": "Updated system default procurement approval limit to $10,000",
+    "ipAddress": "10.0.0.1",
+    "timestamp": "2026-06-27T09:00:00Z"
+  },
+  {
+    "id": "AUD-9007",
+    "user": "Elena Rostova",
+    "role": "Auditor",
+    "action": "Export Report",
+    "module": "Reports",
+    "description": "Generated and downloaded Compliance Overview Q2 Report",
+    "ipAddress": "192.168.1.112",
+    "timestamp": "2026-06-28T06:30:00Z"
+  }
+]

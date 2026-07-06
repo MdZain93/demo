@@ -1,0 +1,121 @@
+{
+  "summary": {
+    "totalRisks": 14,
+    "criticalRisks": 2,
+    "highRisks": 4,
+    "mediumRisks": 5,
+    "lowRisks": 3
+  },
+  "riskMatrix": [
+    { "probability": 1, "impact": 1, "count": 1, "severity": "Low" },
+    { "probability": 1, "impact": 2, "count": 1, "severity": "Low" },
+    { "probability": 1, "impact": 3, "count": 0, "severity": "Medium" },
+    { "probability": 1, "impact": 4, "count": 0, "severity": "High" },
+    { "probability": 1, "impact": 5, "count": 0, "severity": "High" },
+    { "probability": 2, "impact": 1, "count": 1, "severity": "Low" },
+    { "probability": 2, "impact": 2, "count": 2, "severity": "Medium" },
+    { "probability": 2, "impact": 3, "count": 1, "severity": "Medium" },
+    { "probability": 2, "impact": 4, "count": 1, "severity": "High" },
+    { "probability": 2, "impact": 5, "count": 0, "severity": "High" },
+    { "probability": 3, "impact": 1, "count": 0, "severity": "Low" },
+    { "probability": 3, "impact": 2, "count": 1, "severity": "Medium" },
+    { "probability": 3, "impact": 3, "count": 2, "severity": "Medium" },
+    { "probability": 3, "impact": 4, "count": 1, "severity": "High" },
+    { "probability": 3, "impact": 5, "count": 1, "severity": "Critical" },
+    { "probability": 4, "impact": 1, "count": 0, "severity": "Medium" },
+    { "probability": 4, "impact": 2, "count": 0, "severity": "Medium" },
+    { "probability": 4, "impact": 3, "count": 1, "severity": "High" },
+    { "probability": 4, "impact": 4, "count": 0, "severity": "High" },
+    { "probability": 4, "impact": 5, "count": 1, "severity": "Critical" },
+    { "probability": 5, "impact": 1, "count": 0, "severity": "Medium" },
+    { "probability": 5, "impact": 2, "count": 0, "severity": "High" },
+    { "probability": 5, "impact": 3, "count": 0, "severity": "High" },
+    { "probability": 5, "impact": 4, "count": 1, "severity": "Critical" },
+    { "probability": 5, "impact": 5, "count": 0, "severity": "Critical" }
+  ],
+  "register": [
+    {
+      "id": "RSK-001",
+      "title": "Vendor Data Leakage & Unauthorized Access",
+      "category": "Data Privacy",
+      "probability": 3,
+      "impact": 5,
+      "score": 15,
+      "severity": "Critical",
+      "owner": "Marcus Vance",
+      "status": "Monitoring"
+    },
+    {
+      "id": "RSK-002",
+      "title": "Non-compliant Vendor Cloud Architecture",
+      "category": "Compliance",
+      "probability": 4,
+      "impact": 5,
+      "score": 20,
+      "severity": "Critical",
+      "owner": "John Doe",
+      "status": "Open"
+    },
+    {
+      "id": "RSK-003",
+      "title": "Supply Chain Logistics Delay via Port Congestion",
+      "category": "Operational",
+      "probability": 5,
+      "impact": 4,
+      "score": 20,
+      "severity": "Critical",
+      "owner": "Alice Cooper",
+      "status": "Open"
+    },
+    {
+      "id": "RSK-004",
+      "title": "Third-Party ISO Certification Expiry",
+      "category": "Compliance",
+      "probability": 3,
+      "impact": 4,
+      "score": 12,
+      "severity": "High",
+      "owner": "Sarah Jenkins",
+      "status": "Monitoring"
+    },
+    {
+      "id": "RSK-005",
+      "title": "Single-source Software Lock-in",
+      "category": "Financial",
+      "probability": 2,
+      "impact": 4,
+      "score": 8,
+      "severity": "High",
+      "owner": "David Gilmour",
+      "status": "Monitoring"
+    },
+    {
+      "id": "RSK-006",
+      "title": "Vendor Financial Insolvency",
+      "category": "Financial",
+      "probability": 2,
+      "impact": 3,
+      "score": 6,
+      "severity": "Medium",
+      "owner": "Sarah Jenkins",
+      "status": "Mitigated"
+    },
+    {
+      "id": "RSK-007",
+      "title": "Stationery Price Inflation",
+      "category": "Financial",
+      "probability": 2,
+      "impact": 1,
+      "score": 2,
+      "severity": "Low",
+      "owner": "Emily Blunt",
+      "status": "Mitigated"
+    }
+  ],
+  "categories": [
+    { "name": "Data Privacy", "value": 5, "color": "#3b82f6" },
+    { "name": "Compliance", "value": 4, "color": "#10b981" },
+    { "name": "Operational", "value": 3, "color": "#f59e0b" },
+    { "name": "Financial", "value": 2, "color": "#ef4444" }
+  ]
+}

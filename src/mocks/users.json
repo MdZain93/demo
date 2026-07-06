@@ -1,0 +1,47 @@
+[
+  {
+    "id": "u1",
+    "email": "employee@egrcp.com",
+    "password": "password123",
+    "name": "John Doe",
+    "role": "Employee",
+    "department": "IT",
+    "avatar": "JD"
+  },
+  {
+    "id": "u2",
+    "email": "manager@egrcp.com",
+    "password": "password123",
+    "name": "Sarah Jenkins",
+    "role": "Procurement Manager",
+    "department": "Procurement",
+    "avatar": "SJ"
+  },
+  {
+    "id": "u3",
+    "email": "compliance@egrcp.com",
+    "password": "password123",
+    "name": "Marcus Vance",
+    "role": "Compliance Officer",
+    "department": "Legal",
+    "avatar": "MV"
+  },
+  {
+    "id": "u4",
+    "email": "auditor@egrcp.com",
+    "password": "password123",
+    "name": "Elena Rostova",
+    "role": "Auditor",
+    "department": "Internal Audit",
+    "avatar": "ER"
+  },
+  {
+    "id": "u5",
+    "email": "admin@egrcp.com",
+    "password": "password123",
+    "name": "Alex Mercer",
+    "role": "Administrator",
+    "department": "IT Admin",
+    "avatar": "AM"
+  }
+]

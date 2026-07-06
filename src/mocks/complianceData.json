@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "complianceScore": 84,
+    "openViolations": 3,
+    "missingDocuments": 5,
+    "expiredCertificates": 8,
+    "resolvedIssues": 12
+  },
+  "issues": [
+    {
+      "id": "CMP-301",
+      "requirement": "SOC 2 Type II Validation",
+      "entity": "Nova Cloud Infrastructure",
+      "status": "Non-Compliant",
+      "dueDate": "2026-07-15",
+      "owner": "Marcus Vance",
+      "severity": "Critical"
+    },
+    {
+      "id": "CMP-302",
+      "requirement": "ISO 27001 Re-certification",
+      "entity": "Global Tech Solutions Inc.",
+      "status": "Under Review",
+      "dueDate": "2026-08-31",
+      "owner": "Sarah Jenkins",
+      "severity": "Medium"
+    },
+    {
+      "id": "CMP-303",
+      "requirement": "Health & Safety Work-License Review",
+      "entity": "Apex Builders Ltd",
+      "status": "Non-Compliant",
+      "dueDate": "2026-04-30",
+      "owner": "Marcus Vance",
+      "severity": "Critical"
+    },
+    {
+      "id": "CMP-304",
+      "requirement": "GDPR Data Processing Agreement Update",
+      "entity": "Sinergy HR Consulting",
+      "status": "Compliant",
+      "dueDate": "2026-10-01",
+      "owner": "Marcus Vance",
+      "severity": "High"
+    },
+    {
+      "id": "CMP-305",
+      "requirement": "Supplier Code of Conduct Declaration",
+      "entity": "Prime Office Supplies",
+      "status": "Compliant",
+      "dueDate": "2026-09-15",
+      "owner": "Elena Rostova",
+      "severity": "Low"
+    }
+  ],
+  "missingDocuments": [
+    { "vendorId": "V-1004", "vendorName": "Nova Cloud Infrastructure", "documentName": "Liability Insurance Document", "owner": "Kenji Sato", "severity": "High" },
+    { "vendorId": "V-1005", "vendorName": "Apex Builders Ltd", "documentName": "Liability Insurance Document", "owner": "Robert Miller", "severity": "Critical" }
+  ],
+  "expiredCertificates": [
+    { "vendorId": "V-1002", "vendorName": "Apex Logistics Group", "documentName": "ISO 9001 Certificate", "expiredDate": "2026-03-01", "owner": "Dieter Schwarz", "severity": "Medium" },
+    { "vendorId": "V-1002", "vendorName": "Apex Logistics Group", "documentName": "Compliance Declaration", "expiredDate": "2026-02-10", "owner": "Dieter Schwarz", "severity": "Medium" },
+    { "vendorId": "V-1004", "vendorName": "Nova Cloud Infrastructure", "documentName": "SOC 2 Type II Report", "expiredDate": "2026-01-15", "owner": "Kenji Sato", "severity": "Critical" },
+    { "vendorId": "V-1004", "vendorName": "Nova Cloud Infrastructure", "documentName": "ISO 27001 Certificate", "expiredDate": "2026-05-30", "owner": "Kenji Sato", "severity": "High" },
+    { "vendorId": "V-1005", "vendorName": "Apex Builders Ltd", "documentName": "H&S Certificate", "expiredDate": "2025-11-30", "owner": "Robert Miller", "severity": "Critical" }
+  ],
+  "trend": [
+    { "month": "Jan", "score": 78 },
+    { "month": "Feb", "score": 80 },
+    { "month": "Mar", "score": 81 },
+    { "month": "Apr", "score": 82 },
+    { "month": "May", "score": 85 },
+    { "month": "Jun", "score": 84 }
+  ]
+}

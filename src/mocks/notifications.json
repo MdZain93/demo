@@ -1,0 +1,47 @@
+[
+  {
+    "id": "NOT-001",
+    "title": "SOC 2 Certification Expired",
+    "message": "Nova Cloud Infrastructure's SOC 2 Type II report is expired. Check compliance dashboard.",
+    "type": "Compliance",
+    "priority": "Critical",
+    "read": false,
+    "createdDate": "2026-06-20T16:45:00Z"
+  },
+  {
+    "id": "NOT-002",
+    "title": "PR-5005 Sent Back for Information",
+    "message": "Your procurement request for Talent Sourcing Campaign has been sent back by Sarah Jenkins.",
+    "type": "Procurement",
+    "priority": "Medium",
+    "read": false,
+    "createdDate": "2026-06-24T15:20:00Z"
+  },
+  {
+    "id": "NOT-003",
+    "title": "New Procurement Request for Approval",
+    "message": "John Doe submitted PR-5003 'Next-Gen Data Lake Storage Setup' ($340,000) for review.",
+    "type": "Procurement",
+    "priority": "High",
+    "read": false,
+    "createdDate": "2026-06-18T11:02:00Z"
+  },
+  {
+    "id": "NOT-004",
+    "title": "Compliance Issue Resolved",
+    "message": "Global Tech Solutions submitted their ISO 27001 Re-certification. Status updated to compliant.",
+    "type": "Compliance",
+    "priority": "Low",
+    "read": true,
+    "createdDate": "2026-06-25T11:00:00Z"
+  },
+  {
+    "id": "NOT-005",
+    "title": "Audit Logs Exported",
+    "message": "System generated monthly audit snapshot for compliance archives.",
+    "type": "Audit",
+    "priority": "Low",
+    "read": true,
+    "createdDate": "2026-06-28T06:30:00Z"
+  }
+]

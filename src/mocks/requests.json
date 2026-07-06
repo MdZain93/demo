@@ -1,0 +1,166 @@
+[
+  {
+    "id": "PR-5001",
+    "title": "Enterprise Cloud Migration Software Licensing",
+    "department": "IT",
+    "requestedBy": "John Doe",
+    "vendor": "Global Tech Solutions Inc.",
+    "amount": 125000,
+    "status": "Completed",
+    "riskLevel": "Low",
+    "createdDate": "2026-03-01",
+    "requiredDate": "2026-04-01",
+    "priority": "High",
+    "category": "IT Software",
+    "description": "Annual licensing subscription for cloud orchestration tool and migration agents to support our move to Google Cloud.",
+    "attachments": ["Cloud_Migration_Spec.pdf", "GlobalTech_Quote_Q1.pdf"],
+    "comments": [
+      { "id": "c1", "author": "John Doe", "role": "Employee", "text": "This is critical for our Q2 migration milestone.", "timestamp": "2026-03-01T10:00:00Z" },
+      { "id": "c2", "author": "Sarah Jenkins", "role": "Procurement Manager", "text": "Pricing aligns with standard GSA schedules. Approved.", "timestamp": "2026-03-05T14:30:00Z" }
+    ],
+    "approvalHistory": [
+      { "step": "Submission", "user": "John Doe", "role": "Employee", "action": "Submitted", "timestamp": "2026-03-01T10:05:00Z", "comment": "Initial submission" },
+      { "step": "Management Review", "user": "Sarah Jenkins", "role": "Procurement Manager", "action": "Approved", "timestamp": "2026-03-05T14:30:00Z", "comment": "Fully within budget bounds." }
+    ],
+    "auditLogs": [
+      { "timestamp": "2026-03-01T10:05:00Z", "user": "John Doe", "action": "Created request" },
+      { "timestamp": "2026-03-05T14:30:00Z", "user": "Sarah Jenkins", "action": "Approved request and set status to Completed" }
+    ]
+  },
+  {
+    "id": "PR-5002",
+    "title": "Logistics Dispatch Route Optimization Platform",
+    "department": "Operations",
+    "requestedBy": "Alice Cooper",
+    "vendor": "Apex Logistics Group",
+    "amount": 89000,
+    "status": "Completed",
+    "riskLevel": "Medium",
+    "createdDate": "2026-03-15",
+    "requiredDate": "2026-04-15",
+    "priority": "Medium",
+    "category": "Operations",
+    "description": "Integration and software purchase for AI-based dispatch routing to optimize delivery truck fuel usage.",
+    "attachments": ["ApexLogistics_Quote.pdf"],
+    "comments": [],
+    "approvalHistory": [
+      { "step": "Submission", "user": "Alice Cooper", "role": "Employee", "action": "Submitted", "timestamp": "2026-03-15T09:00:00Z", "comment": "Submitted" },
+      { "step": "Review", "user": "Sarah Jenkins", "role": "Procurement Manager", "action": "Approved", "timestamp": "2026-03-20T11:15:00Z", "comment": "Approved following technical evaluation." }
+    ],
+    "auditLogs": []
+  },
+  {
+    "id": "PR-5003",
+    "title": "Next-Gen Data Lake Storage Setup",
+    "department": "IT",
+    "requestedBy": "John Doe",
+    "vendor": "Nova Cloud Infrastructure",
+    "amount": 340000,
+    "status": "Pending Approval",
+    "riskLevel": "High",
+    "createdDate": "2026-06-18",
+    "requiredDate": "2026-07-31",
+    "priority": "Critical",
+    "category": "IT Cloud Services",
+    "description": "High throughput storage block provisioning for global analytics data lake. Vendor high risk is flagged due to an expired SOC 2 Type II report.",
+    "attachments": ["NovaCloud_Proposal_Draft.pdf"],
+    "comments": [
+      { "id": "c3", "author": "Marcus Vance", "role": "Compliance Officer", "text": "Flagging this. Nova Cloud's SOC 2 has expired. I need their updated compliance certification before final sign-off.", "timestamp": "2026-06-20T16:45:00Z" }
+    ],
+    "approvalHistory": [
+      { "step": "Submission", "user": "John Doe", "role": "Employee", "action": "Submitted", "timestamp": "2026-06-18T11:00:00Z", "comment": "Urgently needed for global metrics platform." }
+    ],
+    "auditLogs": [
+      { "timestamp": "2026-06-18T11:00:00Z", "user": "John Doe", "action": "Created request and submitted for approval" }
+    ]
+  },
+  {
+    "id": "PR-5004",
+    "title": "Corporate Office Remodeling and Expansion",
+    "department": "Facilities",
+    "requestedBy": "Richard Wright",
+    "vendor": "Apex Builders Ltd",
+    "amount": 1200000,
+    "status": "Rejected",
+    "riskLevel": "Critical",
+    "createdDate": "2026-02-10",
+    "requiredDate": "2026-09-01",
+    "priority": "Low",
+    "category": "Facilities",
+    "description": "Renovating third and fourth floors of HQ to fit newly onboarded departments. Vendor suspended due to critical health & safety violations.",
+    "attachments": ["HQ_FloorPlan_v3.pdf"],
+    "comments": [
+      { "id": "c4", "author": "Sarah Jenkins", "role": "Procurement Manager", "text": "Rejected. Apex Builders' license is suspended. We cannot proceed with them.", "timestamp": "2026-02-15T09:30:00Z" }
+    ],
+    "approvalHistory": [
+      { "step": "Submission", "user": "Richard Wright", "role": "Employee", "action": "Submitted", "timestamp": "2026-02-10T14:00:00Z", "comment": "Required for headcount growth." },
+      { "step": "Approval", "user": "Sarah Jenkins", "role": "Procurement Manager", "action": "Rejected", "timestamp": "2026-02-15T09:30:00Z", "comment": "Vendor is suspended due to compliance breaches." }
+    ],
+    "auditLogs": []
+  },
+  {
+    "id": "PR-5005",
+    "title": "Recruitment & Talent Sourcing Campaign",
+    "department": "Human Resources",
+    "requestedBy": "Emily Blunt",
+    "vendor": "Sinergy HR Consulting",
+    "amount": 45000,
+    "status": "Send Back",
+    "riskLevel": "Low",
+    "createdDate": "2026-06-22",
+    "requiredDate": "2026-08-01",
+    "priority": "Medium",
+    "category": "Human Resources",
+    "description": "Executive search and engineering recruitment campaign to fill 25 technical leadership positions globally.",
+    "attachments": ["Sinergy_Talent_Proposal.pdf"],
+    "comments": [
+      { "id": "c5", "author": "Sarah Jenkins", "role": "Procurement Manager", "text": "Please provide a granular breakdown of the search fees before approval.", "timestamp": "2026-06-24T15:20:00Z" }
+    ],
+    "approvalHistory": [
+      { "step": "Submission", "user": "Emily Blunt", "role": "Employee", "action": "Submitted", "timestamp": "2026-06-22T10:00:00Z", "comment": "Critical recruitment support" },
+      { "step": "Review", "user": "Sarah Jenkins", "role": "Procurement Manager", "action": "Sent Back", "timestamp": "2026-06-24T15:20:00Z", "comment": "Requires detailed cost breakdown." }
+    ],
+    "auditLogs": []
+  },
+  {
+    "id": "PR-5006",
+    "title": "Office Essentials bulk stationery purchase",
+    "department": "Finance",
+    "requestedBy": "David Gilmour",
+    "vendor": "Prime Office Supplies",
+    "amount": 12000,
+    "status": "Approved",
+    "riskLevel": "Low",
+    "createdDate": "2026-06-25",
+    "requiredDate": "2026-07-10",
+    "priority": "Low",
+    "category": "Operations",
+    "description": "Bulk procurement of whiteboards, paper reams, writing instruments, and standard office supplies for all domestic branch offices.",
+    "attachments": ["PO_Supplies_Quote.pdf"],
+    "comments": [],
+    "approvalHistory": [
+      { "step": "Submission", "user": "David Gilmour", "role": "Employee", "action": "Submitted", "timestamp": "2026-06-25T08:15:00Z", "comment": "Regular office stocking." },
+      { "step": "Review", "user": "Sarah Jenkins", "role": "Procurement Manager", "action": "Approved", "timestamp": "2026-06-26T16:00:00Z", "comment": "Within local budget lines." }
+    ],
+    "auditLogs": []
+  },
+  {
+    "id": "PR-5007",
+    "title": "SOC 2 Audit Prep and Consultancy",
+    "department": "IT",
+    "requestedBy": "John Doe",
+    "vendor": "Global Tech Solutions Inc.",
+    "amount": 75000,
+    "status": "Draft",
+    "riskLevel": "Low",
+    "createdDate": "2026-06-27",
+    "requiredDate": "2026-09-30",
+    "priority": "High",
+    "category": "IT Software",
+    "description": "Drafting of GRC controls framework and compliance consulting to prepare our systems for the SOC 2 audit next year.",
+    "attachments": [],
+    "comments": [],
+    "approvalHistory": [],
+    "auditLogs": []
+  }
+]

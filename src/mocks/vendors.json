@@ -1,0 +1,141 @@
+[
+  {
+    "id": "V-1001",
+    "name": "Global Tech Solutions Inc.",
+    "category": "IT Software",
+    "country": "United States",
+    "riskLevel": "Low",
+    "complianceStatus": "Compliant",
+    "status": "Active",
+    "lastReviewDate": "2026-05-15",
+    "contact": {
+      "name": "Alice Cooper",
+      "email": "alice@globaltech.com",
+      "phone": "+1 (555) 019-2834"
+    },
+    "documents": [
+      { "name": "ISO 27001 Certificate", "expiryDate": "2027-12-31", "status": "Valid" },
+      { "name": "Tax Registration Certificate", "expiryDate": "2026-12-31", "status": "Valid" },
+      { "name": "Liability Insurance Document", "expiryDate": "2027-06-30", "status": "Valid" },
+      { "name": "Compliance Declaration", "expiryDate": "2028-01-15", "status": "Valid" }
+    ],
+    "history": [
+      { "id": "PR-5001", "amount": 125000, "date": "2026-03-10", "status": "Completed" },
+      { "id": "PR-5008", "amount": 45000, "date": "2026-05-02", "status": "Completed" }
+    ]
+  },
+  {
+    "id": "V-1002",
+    "name": "Apex Logistics Group",
+    "category": "Operations",
+    "country": "Germany",
+    "riskLevel": "Medium",
+    "complianceStatus": "Compliant",
+    "status": "Active",
+    "lastReviewDate": "2026-04-22",
+    "contact": {
+      "name": "Dieter Schwarz",
+      "email": "d.schwarz@apex-logistics.de",
+      "phone": "+49 89 2019382"
+    },
+    "documents": [
+      { "name": "ISO 9001 Certificate", "expiryDate": "2026-03-01", "status": "Expired" },
+      { "name": "Tax Registration Certificate", "expiryDate": "2026-12-31", "status": "Valid" },
+      { "name": "Liability Insurance Document", "expiryDate": "2027-03-15", "status": "Valid" },
+      { "name": "Compliance Declaration", "expiryDate": "2026-02-10", "status": "Expired" }
+    ],
+    "history": [
+      { "id": "PR-5002", "amount": 89000, "date": "2026-04-01", "status": "Completed" }
+    ]
+  },
+  {
+    "id": "V-1003",
+    "name": "Sinergy HR Consulting",
+    "category": "Human Resources",
+    "country": "United Kingdom",
+    "riskLevel": "Low",
+    "complianceStatus": "Compliant",
+    "status": "Active",
+    "lastReviewDate": "2026-06-01",
+    "contact": {
+      "name": "Clara Oswald",
+      "email": "clara@sinergyhr.co.uk",
+      "phone": "+44 20 7946 0192"
+    },
+    "documents": [
+      { "name": "Data Privacy Pledge", "expiryDate": "2027-08-15", "status": "Valid" },
+      { "name": "Tax Registration Certificate", "expiryDate": "2026-12-31", "status": "Valid" },
+      { "name": "Compliance Declaration", "expiryDate": "2027-01-01", "status": "Valid" }
+    ],
+    "history": []
+  },
+  {
+    "id": "V-1004",
+    "name": "Nova Cloud Infrastructure",
+    "category": "IT Cloud Services",
+    "country": "Singapore",
+    "riskLevel": "High",
+    "complianceStatus": "Non-Compliant",
+    "status": "In Review",
+    "lastReviewDate": "2026-06-20",
+    "contact": {
+      "name": "Kenji Sato",
+      "email": "k.sato@novacloud.sg",
+      "phone": "+65 6789 0123"
+    },
+    "documents": [
+      { "name": "SOC 2 Type II Report", "expiryDate": "2026-01-15", "status": "Expired" },
+      { "name": "ISO 27001 Certificate", "expiryDate": "2026-05-30", "status": "Expired" },
+      { "name": "Tax Registration Certificate", "expiryDate": "2026-12-31", "status": "Valid" },
+      { "name": "Liability Insurance Document", "expiryDate": "missing", "status": "Missing" }
+    ],
+    "history": [
+      { "id": "PR-5003", "amount": 340000, "date": "2026-02-15", "status": "Completed" }
+    ]
+  },
+  {
+    "id": "V-1005",
+    "name": "Apex Builders Ltd",
+    "category": "Facilities",
+    "country": "Canada",
+    "riskLevel": "Critical",
+    "complianceStatus": "Non-Compliant",
+    "status": "Suspended",
+    "lastReviewDate": "2026-03-05",
+    "contact": {
+      "name": "Robert Miller",
+      "email": "r.miller@apexbuilders.ca",
+      "phone": "+1 (416) 555-0144"
+    },
+    "documents": [
+      { "name": "H&S Certificate", "expiryDate": "2025-11-30", "status": "Expired" },
+      { "name": "Tax Registration Certificate", "expiryDate": "2026-12-31", "status": "Valid" },
+      { "name": "Liability Insurance Document", "expiryDate": "missing", "status": "Missing" }
+    ],
+    "history": [
+      { "id": "PR-5004", "amount": 1200000, "date": "2025-10-05", "status": "Completed" }
+    ]
+  },
+  {
+    "id": "V-1006",
+    "name": "Prime Office Supplies",
+    "category": "Operations",
+    "country": "United States",
+    "riskLevel": "Low",
+    "complianceStatus": "Compliant",
+    "status": "Active",
+    "lastReviewDate": "2026-02-18",
+    "contact": {
+      "name": "Thomas Edison",
+      "email": "tedison@primesupplies.com",
+      "phone": "+1 (800) 555-0199"
+    },
+    "documents": [
+      { "name": "Tax Registration Certificate", "expiryDate": "2027-12-31", "status": "Valid" },
+      { "name": "Compliance Declaration", "expiryDate": "2028-02-18", "status": "Valid" }
+    ],
+    "history": [
+      { "id": "PR-5005", "amount": 12000, "date": "2026-04-10", "status": "Completed" }
+    ]
+  }
+]

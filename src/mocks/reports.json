@@ -1,0 +1,34 @@
+[
+  {
+    "id": "REP-801",
+    "name": "Procurement Spend Report Q1",
+    "module": "Procurement",
+    "createdBy": "Sarah Jenkins",
+    "createdDate": "2026-04-01",
+    "format": "CSV"
+  },
+  {
+    "id": "REP-802",
+    "name": "Vendor Risk Matrix Summary",
+    "module": "Vendor",
+    "createdBy": "Marcus Vance",
+    "createdDate": "2026-05-10",
+    "format": "Excel"
+  },
+  {
+    "id": "REP-803",
+    "name": "Compliance Violations & Actions Logs",
+    "module": "Compliance",
+    "createdBy": "Marcus Vance",
+    "createdDate": "2026-06-25",
+    "format": "PDF"
+  },
+  {
+    "id": "REP-804",
+    "name": "Quarterly Internal Security & GRC Audit Report",
+    "module": "Audit",
+    "createdBy": "Elena Rostova",
+    "createdDate": "2026-06-28",
+    "format": "PDF"
+  }
+]
